@@ -125,4 +125,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 STATICFILES_DIRS = (
     ('bootstrap', os.path.join(STATIC_ROOT, 'bootstrap-3.3.7-dist')),
     ('pricing', os.path.join(STATIC_ROOT, 'pricing')),
+    ('image', os.path.join(STATIC_ROOT, 'image')),
+    ('css', os.path.join(STATIC_ROOT, 'css')),
 )
