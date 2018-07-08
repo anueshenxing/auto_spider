@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'my_app',
 ]
 
 MIDDLEWARE = [
@@ -123,4 +124,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 STATICFILES_DIRS = (
     ('bootstrap', os.path.join(STATIC_ROOT, 'bootstrap-3.3.7-dist')),
+    ('pricing', os.path.join(STATIC_ROOT, 'pricing')),
 )
